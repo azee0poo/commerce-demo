@@ -1,0 +1,259 @@
+/* === Font Setup === */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+/* === Header === */
+header {
+  background: #f8e1e7;
+  padding: 2em;
+  text-align: center;
+}
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  margin: 0;
+  color: #b30059;
+}
+
+/* === Navigation Bar === */
+nav {
+  background: #b30059;
+  text-align: center;
+  padding: 1em 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* === Hero Banner === */
+.hero {
+  background: url('https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 2.5em;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.5em 1em;
+  border-radius: 10px;
+}
+
+/* === Main Container === */
+.container {
+  padding: 2em;
+  max-width: 1200px;
+  margin: auto;
+}
+.section-title {
+  text-align: center;
+  color: #b30059;
+  margin-bottom: 1em;
+}
+
+/* Product Grid Styles */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 20px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.product-image-container {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-image {
+  transform: scale(1.05);
+}
+
+.product-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.product-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  color: #333;
+  margin: 0 0 10px 0;
+  font-weight: 500;
+}
+
+.product-price {
+  font-size: 1.2rem;
+  color: #e91e63;
+  font-weight: 600;
+  margin: 10px 0 15px 0;
+}
+
+.add-to-cart-btn {
+  background: linear-gradient(135deg, #e91e63, #ad1457);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 200px;
+}
+
+.add-to-cart-btn:hover {
+  background: linear-gradient(135deg, #ad1457, #880e4f);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(233, 30, 99, 0.3);
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 15px;
+  }
+  
+  .product-image-container {
+    height: 200px;
+  }
+  
+  .cart-item {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .cart-item-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
+
+
+/* === Cart Item Styles === */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+  border-bottom: 1px solid #ddd;
+}
+.cart-item img {
+  width: 80px;
+  border-radius: 5px;
+}
+.cart-item-details {
+  flex: 1;
+  padding: 0 1em;
+}
+.cart-item h4 {
+  margin: 0;
+  color: #b30059;
+}
+.cart-total {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 1em;
+  color: #b30059;
+}
+.cart-checkout {
+  text-align: right;
+  margin-top: 1em;
+}
+.cart-checkout button {
+  background: #b30059;
+  color: white;
+  padding: 0.7em 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cart-checkout button:hover {
+  background: #a00050;
+}
+
+/* === Contact Page === */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+label {
+  font-weight: bold;
+}
+input, textarea {
+  padding: 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+/* === Footer === */
+footer {
+  background: #b30059;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 1.8em;
+  }
+  .cart-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
