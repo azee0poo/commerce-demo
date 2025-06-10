@@ -5,13 +5,13 @@ const products = [
     id: 1,
     name: "Elegant Blazer",
     price: 89.99,
-    image: "https://images.unsplash.com/photo-1603252109303-2751441d60e7?auto=format&fit=crop&w=700&q=80"
+    image: "https://images.unsplash.com/photo-1646926896401-ad76253ea8ed?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 2,
     name: "Pink Heels",
     price: 79.99,
-    image: "https://images.unsplash.com/photo-1618354691249-bcf1c70989a6?auto=format&fit=crop&w=700&q=80"
+    image: "https://images.unsplash.com/photo-1646926896401-ad76253ea8ed?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 3,
