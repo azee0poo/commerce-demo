@@ -5,7 +5,7 @@ const products = [
     id: 1,
     name: "Elegant Blazer",
     price: 89.99,
-    image: "https://images.unsplash.com/photo-1646926896401-ad76253ea8ed?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    image: "https://images.unsplash.com/photo-1588186941799-f9a4fc54ff1e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 2,
