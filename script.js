@@ -11,7 +11,7 @@ const products = [
     id: 2,
     name: "Pink Heels",
     price: 79.99,
-    image: "https://images.unsplash.com/photo-1646926896401-ad76253ea8ed?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    image: "https://plus.unsplash.com/premium_photo-1673716789172-a6ca263eb4db?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  
   },
   {
     id: 3,
