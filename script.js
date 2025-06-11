@@ -23,7 +23,7 @@ const products = [
     id: 4,
     name: "Pastel Handbag",
     price: 59.99,
-    image: "https://images.unsplash.com/photo-1542068829-1115f7259450?auto=format&fit=crop&w=700&q=80"
+    image: "https://images.unsplash.com/photo-1567744875520-cf9c27fbb53b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   }
 ];
 
