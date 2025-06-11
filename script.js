@@ -17,7 +17,7 @@ const products = [
     id: 3,
     name: "Boho Top",
     price: 39.99,
-    image: "https://images.unsplash.com/photo-1521577352947-9bb58764b69a?auto=format&fit=crop&w=700&q=80"
+    image: "https://images.unsplash.com/photo-1701241284338-823f1c5aa943?q=80&w=1926&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 4,
